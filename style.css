@@ -1,0 +1,135 @@
+*{
+	font-family: Arial;
+}
+body{
+	background-color: white;
+	width: 100%;
+	height: 1030px;
+	margin: 0;
+	padding: 0;
+}
+.cabecalho{
+	
+	background-color: #353535;
+	
+	height: 50px;
+}
+.cabecalho_interior{
+	display: block;
+	width: 1000;
+	height: 100%;
+	margin: auto;
+	color: white;
+}
+.logo{
+	float: left; 
+	line-height: 50px;
+	font-size: 24px;
+	font-family: verdana;
+}
+.menu{
+	float: right;
+}
+.menu ul,
+.menu li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding: left
+
+}
+.menu li{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 50px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.menu li:hover{
+	background-color: #547fbd;
+}
+.banner{
+	height: 300px;
+	width: 100%;
+	margin: auto;
+	background-color:#547fbd; 
+}
+.banner_conteudo{
+	margin: auto;
+	width: 1000px;
+	height: 100%;
+}
+.banner_left{
+	float: left;
+	width: 470px;
+	height: 100%;
+	margin-left: 30px;
+}
+.text1{
+	font-size: 48px;
+	color: #ffffff;
+	margin-top: 62px;
+}
+.text2{
+	font-size: 20px;
+	color: #ffffff;
+
+}
+
+.bottom{
+	width: 280px;
+	height: 55px;
+	background-color: #efbf2d;
+	text-align: center;
+	line-height: 55px;
+	border-radius: 5px;
+	color: white;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.banner_right{
+	width: 500px;
+	height: 100%;
+	float: right;
+}
+.banner_right img{
+	margin-right: 55px;
+	float: right;
+}
+.produtos{
+	height: 630px;
+	background-color: #ffffff;
+
+}
+.produtos_interior{
+	margin: auto;
+	width: 1000px;
+	height: 100%;
+}
+.prod_text{
+	font-size: 20px;
+	color: black;
+	height: 90px;
+	width: 100%;
+	text-align: center;
+	line-height: 90px;
+
+}
+.prod_list{
+	width: 100%;
+	height: 540px;
+}
+.prod_list img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.rodape{
+	height: 50px;
+	width: 100%;
+	background-color: #5078b6;
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	color: white;
+}
